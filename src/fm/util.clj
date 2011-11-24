@@ -1,6 +1,5 @@
 (ns fm.util
-  (:require [clojure.contrib.string :as st])
-  (:use clojure.contrib.shell))
+  (:require [clojure.contrib.string :as st]))
 
 (defn safe-nil 
   "si o es nil, regresa 0 o x"
