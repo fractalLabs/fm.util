@@ -1,5 +1,5 @@
 (ns fm.util
-  (:require [clojure.contrib.string :as st]))
+  (:require [clojure.string :as st]))
 
 (defn safe-nil 
   "si o es nil, regresa 0 o x"
@@ -37,7 +37,7 @@
 
 (defn re-trim
   "elimina las coicidencias de rege en string"
-  [rege string] (st/replace-re rege "" string))
+  [rege s] (st/replace s rege ""))
 
 (defmacro false-on-exception
   "si durante la ejecucion de body surge una excepcion regresa false"
