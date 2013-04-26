@@ -1,10 +1,12 @@
 # fm.util
 
-Funciones utiles para clojure
+Funciones utiles para clojure. De cuando empezabamos (pueden estar chidas o nalga), si hay algo innecesario favor de hacer fork request!
 
 ## Usage
 
-FIXME: write
+[fm.util "1.0.0-SNAPSHOT"]
+
+(use 'fm.util)
 
 ## License
 
